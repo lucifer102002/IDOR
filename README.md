@@ -9,6 +9,7 @@ A simple web application demonstrating IDOR (Insecure Direct Object References) 
 
 1️⃣ Clone the repository
 
+**Usage:**
 '''bash
 git clone https://github.com/yourusername/IDOR-Lab.git
 '''
