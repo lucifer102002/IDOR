@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <div id="user-data"></div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const userId = params.get("id");
+
+        fetch(`/user/${userId}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("user-data").innerHTML = `<p>Username: ${data.username}</p><p>Email: ${data.email}</p>`;
+            })
+            .catch(error => console.log("Error fetching user data:", error));
+    </script>
+</body>
+</html>
