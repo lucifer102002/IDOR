@@ -9,20 +9,13 @@ A simple web application demonstrating IDOR (Insecure Direct Object References) 
 
 1️⃣ Clone the repository
 
-**Usage:**
-'''bash
 git clone https://github.com/yourusername/IDOR-Lab.git
-'''
 
-'''bash
 cd IDOR-Lab
-'''
 
 2️⃣ Install dependencies
 
-'''bash
 npm install express express-session
-'''
 
 3️⃣ Start the server
 
