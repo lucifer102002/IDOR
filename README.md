@@ -19,9 +19,7 @@ npm install express express-session
 
 3️⃣ Start the server
 
-'''bash
 node server.js
-'''
 
 4️⃣ Open in Browser
 
