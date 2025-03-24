@@ -1,17 +1,15 @@
-Here's a README.md file for your IDOR Lab project. It includes installation steps, usage instructions, an example attack scenario, and a note on fixing IDOR vulnerabilities.
-
-
----
-
 IDOR Lab - Insecure Direct Object References
 
 A simple web application demonstrating IDOR (Insecure Direct Object References) vulnerability. Users can modify the ?id= parameter in the URL to access unauthorized user profiles.
+
+
+---
 
 ⚙️ Setup & Installation
 
 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/IDOR-Lab.git
+git clone https://github.com/yourusername/IDOR-Lab.git  
 cd IDOR-Lab
 
 2️⃣ Install dependencies
